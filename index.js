@@ -2,6 +2,7 @@ const PORT = 3333;
 
 const express = require("express");
 const cors = require("cors");
+require("dotenv").config();
 const leaderBoardController = require("./controllers/leaderBoardController");
 const app = express();
 app.use(cors());
